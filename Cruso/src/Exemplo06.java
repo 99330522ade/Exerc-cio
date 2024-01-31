@@ -19,6 +19,14 @@ public class Exemplo06 {
         A = Math.pow(x, y);
         B = Math.pow(x,  2.0);
         C = Math.pow(5.0,  2.0);
+        System.out.println(x + "elevado a" + y +"=" + A);
+        System.out.println(x + "elevado a" + y +"=" + B);
+        System.out.println(" 5 elevado a =" + C);
+
+        A = Math.abs(y);
+        B = Math.abs(z);
+        System.out.println("Valor aobsoluto de "+ y + "="  + A);
+        System.out.println("Valor aobsoluto de "+ z + "="  + B);
 
 
 
